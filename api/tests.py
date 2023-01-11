@@ -4,7 +4,7 @@
 from flask import Flask,jsonify
 
 def main(path,status_code,method,data,total,get_num,post_num):
-    
+    '''Handler for /test path'''
     print(path)
     print(method)
     print(data)
