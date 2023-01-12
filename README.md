@@ -14,7 +14,7 @@ Routes on app.py:
 Data Information:
 
 - Every request, it will be logged to [logs.json](https://github.com/Mythi3/API-testing/blob/main/data/logs.json)
-- - Total number of requests can be accessed from [data.json](https://github.com/Mythi3/API-testing/blob/main/data/data.json)
+- Total number of requests can be accessed from [data.json](https://github.com/Mythi3/API-testing/blob/main/data/data.json)
 - Prints out details about a request to the console
 
 
