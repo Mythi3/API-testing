@@ -1,8 +1,9 @@
-<h3 align="center">My repo for api testing using flask written in python</h3>
+<h3 align="center">python flask api (so I can learn)</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mythi3&label=Profile%20views&color=0e75b6&style=flat" alt="mythi3" /> </p>
 
 - 👨‍💻 All of my projects are available at [https://github.com/Mythi3/](https://github.com/Mythi3/)
+- ⚠️ This api isnt secure & should not be used on the web
 
 - 📝 Simple documentation below.
 
