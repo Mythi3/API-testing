@@ -8,16 +8,19 @@
 
 ```
 	API-testing
+├── data
+│    ├── data.json
+│    ├── logs.json
+│
+├── api
+│    ├── handle.py
+│    ├── tests.py
+│
 ├── README.md
 ├── requirements.txt
 ├── app.py
 ├── req.py
-├── data
-│   ├── data.json
-│   ├── logs.json
-├──api
-│   ├── handle.py
-│   ├── tests.py
+
 ```
 
 <p align="left">
