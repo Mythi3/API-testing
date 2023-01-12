@@ -8,8 +8,8 @@
 
 Routes on app.py:
 
-`/` - Shows a map of all the routes <br/> 
-`/test` - Tests if everything is working normaly (Uses [tests.py](https://github.com/Mythi3/API-testing/blob/main/api/tests.py))
+`/` - `'GET' 'POST'` | Shows a map of all the routes <br/> 
+`/test` - `'GET' 'POST'` | Tests if everything is working normaly (Uses [tests.py](https://github.com/Mythi3/API-testing/blob/main/api/tests.py))
 
 Data Information:
 
