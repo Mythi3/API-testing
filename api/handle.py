@@ -23,7 +23,7 @@ class handle():
     def __init__(self):
         self.time_now = datetime.now();self.time_now = self.time_now.strftime("%H:%M:%S | %d/%m/%Y ")
     
-    def log(ip,path,method,data,response):
+    def log(ip,useragent,path,method,data,response):
         #characters possible to generate id
         all_chars = list(string.ascii_letters + string.digits)
         #time stuff
@@ -56,6 +56,7 @@ class handle():
             "time": formatted,
             "response": response,
             "ip": ip,
+            "User_agent": useragent,
             "method": method,
             "data": data,
             "path": path
@@ -68,5 +69,4 @@ class handle():
         with open("data/logs.json", "w") as json_file:
             json.dump(arrays_list, json_file)
 
-        print(f"{time}{ENDC} | {date}{ENDC} | Request Response Code:{ENDC} {response}{ENDC} | Request ID:{ENDC} {request_id} | Request ip:{ENDC} {ip}{ENDC} | Request Method:{ENDC} {method}{ENDC} | Request Data Recieved:{ENDC} {data}{ENDC} | Request Path:{ENDC} {path}{ENDC}")
-
+        print(f"{time}{ENDC} | {date}{ENDC} | Request Response Code:{ENDC} {response}{ENDC} | Request ID:{ENDC} {request_id} | Request User Agent: {useragent} | Request ip:{ENDC} {ip}{ENDC} | Request Method:{ENDC} {method}{ENDC} | Request Data Recieved:{ENDC} {data}{ENDC} | Request Path:{ENDC} {path}{ENDC}")
