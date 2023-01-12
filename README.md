@@ -2,7 +2,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mythi3&label=Profile%20views&color=0e75b6&style=flat" alt="mythi3" /> </p>
 
-- 👨‍💻 All of my projects are available at [https://github.com/Mythi3/](https://github.com/Mythi3/)
+- 👨‍💻 All of my projects are available at: [https://github.com/Mythi3/](https://github.com/Mythi3/)
 
 - 📝 Simple documentation below.
 
