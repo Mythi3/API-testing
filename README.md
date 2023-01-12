@@ -4,7 +4,18 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/Mythi3/](https://github.com/Mythi3/)
 
-- 📝 Simple documentation.
+- 📝 Simple documentation below.
+
+Routes on app.py:
+
+`/` - Shows a map of all the routes
+`/test` - Tests if everything is working normaly (Uses [tests.py](https://github.com/Mythi3/API-testing/blob/main/api/tests.py))
+
+Data Information:
+
+- Every request, it will be logged to (logs.json)[https://github.com/Mythi3/API-testing/blob/main/data/logs.json]
+- Prints out every detail about a request to the console
+- Total number of requests can be accessed from (data.json)[https://github.com/Mythi3/API-testing/blob/main/data/data.json]
 
 ```
 	API-testing
@@ -22,7 +33,6 @@
 ├── req.py
 
 ```
-
 <p align="left">
 </p>
 
