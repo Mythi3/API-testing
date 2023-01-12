@@ -32,7 +32,6 @@ API-testing
 ├── requirements.txt
 ├── app.py
 ├── req.py
-
 ```
 <p align="left">
 </p>
