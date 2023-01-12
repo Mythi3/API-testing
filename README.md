@@ -18,7 +18,7 @@ Data Information:
 - Total number of requests can be accessed from [data.json](https://github.com/Mythi3/API-testing/blob/main/data/data.json)
 
 ```
-	API-testing
+API-testing
 ├── data
 │    ├── data.json
 │    ├── logs.json
